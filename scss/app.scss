@@ -1,0 +1,40 @@
+@charset 'UTF-8';
+
+// Vendors
+@import
+  '_vendors_reset',
+  '_vendors_jquery',
+  '_vendors_bootstrap';
+
+// 0. Configuration and helpers (Utilities)
+@import
+  '_0_variables',
+  '_0_functions',
+  '_0_mixins';
+
+// 1. Base stuff
+@import
+  '_1_main',
+  '_1_typography';
+
+// 2. Layout-related sections
+@import
+  '_2_layout_grid',
+  '_2_layout_header',
+  '_2_layout_navigation',
+  '_2_layout_sidebar',
+  '_2_layout_forms',
+  '_2_layout_footer';
+
+// 3. Components
+@import
+  '_3_components';
+
+// 4. Page-specific styles
+@import
+  '_4_pages_home',
+  '_4_pages_contact';
+
+// 5. Media Queries
+@import
+  '_5_responsive';
